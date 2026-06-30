@@ -1,0 +1,94 @@
+canonical_identifier: bkk:krp/KR4d0448/v1
+canonical_location: https://kanripo.org/bkk/KR4d0448/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 山村遺集
+  date: '2015-08-25 00:09:39.416364'
+  source:
+    repository: kanripo
+    path: KR4d0448
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4d0448_000.yaml, hash: 'sha256:6e6b271c5cfaf2f230d2f420bcd8b59b61661a3428ee09c094d9bbdd725ee109'}
+  - {seq: 1, filename: KR4d0448_001.yaml, hash: 'sha256:5506138a0f0c3a9c8d01418fe25ee64d91d2b76437c8e2d8e1d564157f140007'}
+  - {seq: 2, filename: KR4d0448_002.yaml, hash: 'sha256:90a35ec83335a11fedbdc38ab24c2ebc5d7da2a7c677e5ca7bf6b26c93d20a85'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4d0448_000.markers.yaml, hash: 'sha256:54578d1bbe520a09ff9b7348a0ae4f0b84367b647d0ee060c1f67d3cd40dec6c'}
+  - {seq: 1, role: markers, filename: assets/KR4d0448_001.markers.yaml, hash: 'sha256:3786af8b811a7e8401f3d0f4b12231b69c1e72881f81ee0bc381f6d990665fc6'}
+  - {seq: 2, role: markers, filename: assets/KR4d0448_002.markers.yaml, hash: 'sha256:55bb3a4a561176e4b5d690fd9b4e63e0624eca0b9f2d991881c8311b717ad63d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4d0448_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 284
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4d0448_WYG_000-3a
+    span:
+    - body
+    - 284
+    - 640
+  label: 序方鳳
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4d0448_WYG_000-5a
+    span:
+    - body
+    - 640
+    - 939
+  label: 序牟巘
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4d0448_WYG_000-6a
+    span:
+    - body
+    - 939
+    - 1397
+  label: 序戴表元
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4d0448_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 9691
+  label: 山村遺集
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4d0448_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 208
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:e0090dbc8b521fbe05df108fad752b531a8cb4136e83f49f1facd7b7ca797233
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
